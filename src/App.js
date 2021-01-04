@@ -17,12 +17,12 @@ function App() {
         <UserContainer />
 
         {/* "cake" is passed as "props" in item componenet */}
-        {/* <ItemContainer cake /> 
+        <ItemContainer cake /> 
         <ItemContainer />
         <CakeContainerHook />
         <CakeContainers />
         <IceCreamContainer />
-        <PayloadCakeContainer /> */}
+        <PayloadCakeContainer />
       </div>
     </Provider>
   );

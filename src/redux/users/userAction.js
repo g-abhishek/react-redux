@@ -8,14 +8,12 @@ import {
 
 
 export const fetchUserRequest = () => {
-    console.log("====================== fetchUserRequest ========================")
     return {
         type: FETCH_USER_REQUEST
     }
 }
 
 export const fetchUserSuccess = (users) => {
-    console.log("====================== fetchUserSuccess ========================")
     return {
         type: FETCH_USER_SUCCESS,
         payload: users
@@ -23,7 +21,6 @@ export const fetchUserSuccess = (users) => {
 }
 
 export const fetchUserFailure = (errorMsg) => {
-    console.log("====================== fetchUserFailure ========================")
     return {
         type: FETCH_USER_FAILURE,
         payload: errorMsg

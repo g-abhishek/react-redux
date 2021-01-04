@@ -11,7 +11,6 @@ const initialState = {
 }
 
 const userReducers = (state = initialState, action) => {
-    console.log("======================== userReducers ================================")
     switch(action.type){
         case FETCH_USER_REQUEST: return {
             ...state,
